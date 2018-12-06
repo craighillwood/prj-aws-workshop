@@ -1,0 +1,18 @@
+.Landing {
+  text-align: center; }
+  .Landing-header {
+    background-color: #222;
+    height: 15rem;
+    padding: 2rem;
+    color: #fff; }
+  .Landing-title {
+    font-size: 1.5em; }
+  .Landing-intro {
+    font-size: large; }
+  .Landing-resources .container {
+    display: flex;
+    justify-content: center; }
+    .Landing-resources .container .resource {
+      margin: 5px;
+      border: 1px solid #a7a7a7;
+      padding: 10px; }

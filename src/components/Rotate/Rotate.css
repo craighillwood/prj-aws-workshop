@@ -1,0 +1,26 @@
+.Rotate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  z-index: 4; }
+  .Rotate .container {
+    text-align: center; }
+    .Rotate .container p {
+      color: #fff;
+      font-size: 1.6rem;
+      line-height: 120%;
+      margin-top: 2rem;
+      text-align: center; }
+    .Rotate .container .rotate-icon {
+      margin: auto;
+      width: 10rem; }
+      .Rotate .container .rotate-icon svg {
+        width: 100%;
+        height: 100%;
+        display: block; }

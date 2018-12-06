@@ -1,0 +1,16 @@
+.Pages {
+  position: relative;
+  text-align: center;
+  margin-top: 6rem; }
+  @media (min-width: 1200px) {
+    .Pages {
+      margin-top: 6rem; } }
+  .Pages > section {
+    padding-bottom: 110px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; }
+    @media (min-width: 768px) {
+      .Pages > section {
+        padding-bottom: 80px; } }

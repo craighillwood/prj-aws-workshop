@@ -1,0 +1,40 @@
+.MainTopNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 3.5rem 0 4rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  height: 6rem;
+  background: #fff;
+  z-index: 1; }
+  @media (min-width: 1200px) {
+    .MainTopNav {
+      height: 6rem;
+      padding: 0 5rem 0 6rem; } }
+  .MainTopNav .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%; }
+    .MainTopNav .nav .nav-logo {
+      width: 5rem; }
+    .MainTopNav .nav .nav-list {
+      display: inline-block; }
+      .MainTopNav .nav .nav-list .nav-item {
+        display: inline-block;
+        padding: 0.5rem;
+        margin-left: 1rem; }
+        @media (min-width: 1200px) {
+          .MainTopNav .nav .nav-list .nav-item {
+            padding: 1rem;
+            margin-left: 2rem; } }
+        .MainTopNav .nav .nav-list .nav-item a {
+          font-size: 2rem;
+          color: rgba(0, 0, 0, 0.7);
+          transition: color 0.2s; }
+          .MainTopNav .nav .nav-list .nav-item a.active {
+            color: black; }
+          .desktop .MainTopNav .nav .nav-list .nav-item a:hover {
+            color: black; }
